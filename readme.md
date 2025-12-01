@@ -12,3 +12,5 @@ pd: se utilizaron los contenidos de la carpeta assets del Repositorio 1, por lo 
 CSS: Usado para dar estilos personalizados.
 Bootstrap 5: Framework CSS para un diseño responsivo y estilos predefinidos.
 JavaScript con jQuery: Usado para hace la pagina interactiva.
+
+https://github.com/SophVZ/pages_productos
