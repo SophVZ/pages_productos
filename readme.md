@@ -1,5 +1,7 @@
-El precente proyecto corresponde al desarrollo front-end de un e-comerce llamado "Meme Store", el cual esta separado en tres repositorios:
-Repositorio 2 (2/3):
+Repositorio 2 (2/3): pages_productos
+
+El precente proyecto corresponde al desarrollo front-end de un e-comerce llamado "Meme Store", el cual esta separado en tres repositorios.
+
 Este repositorio contiene las vistas individuales para los diferentes productos ofrecidos por la tienda. Cada archivo HTML muestra una vista detallada con una imagen más grande, una descripción completa (incluyendo referencias) y un botón para añadir el artículo al carrito.
 Estas páginas reutilizan los assets (CSS, JS) del Repositorio 1 para mantener una apariencia y funcionalidad consistentes, como el contador del carrito, o los estilos.
 
