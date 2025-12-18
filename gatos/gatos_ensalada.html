@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="../../interfaz_principal/assets/CSS/styles.css">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 <header>
 <!--barra de navegación y links para navegar por la página-->
-    <nav class="navbar bg-custom-color">
+    <nav class="navbar navbar--verde">
         <div class="container-fluid">
             <a class="navbar-brand " href="../../interfaz_principal/index.html"> Meme Store </a>
             <p class="text-center fw-bold fs-4 m-auto">Salad cat</p>
@@ -24,8 +24,8 @@
     </nav>
 </header>
 
-<main>
-    <div class="container  py-md-5 border-bottom producto">
+<main class="flex-grow-1 border-bottom">
+    <div class="container  py-md-5 producto">
         <div class="row p-3 border rounded shadow mx-1 py-md-3">
             <div class="col-md-6 h-100 align-self-center">
                 <img src="../../interfaz_principal/assets/IMG/gatos/gato_ensalada.jpeg" alt="gato_ensalada" class="producto__imagen mb-3 mb-md-0 w-100 d-block mx-auto py-2">
@@ -64,34 +64,34 @@
     </svg> 
 
 <!--footer-->
-    <div class="container py-3 my-2">  
-        <div class="d-block d-md-flex flex-wrap justify-content-between align-items-center border-bottom pb-3 mb-3">
+    <div class="container py-0 mt-2">  
+        <div class="d-block d-md-flex flex-wrap justify-content-between align-items-center border-bottom py-2 pt-md-1 mb-md-1">
             <!--logo-->
-            <div class="d-flex align-items-center justify-content-center justify-content-md-start w-md-auto mb-3 mb-md-0"> 
-                <img src="../../interfaz_principal/assets/IMG/doge.jpeg" alt="doge" width="30" height="30" class="d-inline-block align-text-top me-2">
-                <span class="mb-0 text-body-secondary">&copy; 2025, Meme Store.</span> 
+            <div class="d-flex align-items-center justify-content-center justify-content-md-start w-md-auto mb-0"> 
+                <img src="../interfaz_principal/assets/IMG/doge.jpeg" alt="doge" width="25" height="25" class="d-inline-block align-text-top me-2">
+                <span class="small text-body-secondary">&copy; 2025, Meme Store.</span> 
             </div> 
             <!--menu-->
-            <ul class="nav justify-content-center  w-md-auto mb-3 mb-md-0"> 
+            <ul class="nav justify-content-center  w-md-auto mb-1 mb-md-0"> 
                 <li class="nav-item">
-                    <a href="#" id="scrollToTop" class="nav-link px-2 text-body-secondary">Home</a>
+                    <a href="../interfaz_principal/index.html" class="nav-link px-2 text-body-secondary">Home</a>
                 </li> 
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary">Preguntas frecuentes</a></li> 
+                    <a href="#!" class="nav-link px-2 text-body-secondary">Preguntas frecuentes</a></li> 
                 <li class="nav-item">
-                    <a href="#" class="nav-link px-2 text-body-secondary">Sobre nosotros</a>
+                    <a href="#!" class="nav-link px-2 text-body-secondary">Sobre nosotros</a>
                 </li> 
             </ul> 
             <!--redes-->
-            <ul class="nav align-items-center justify-content-center justify-content-md-end list-unstyled d-flex w-md-100"> 
-                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram">
+            <ul class="nav align-items-center justify-content-center justify-content-md-end list-unstyled d-flex mb-1 w-md-100"> 
+                <li class="ms-3"><a class="text-body-secondary" href="#!" aria-label="Instagram">
                     <svg class="bi" width="24" height="24" aria-hidden="true">
                         <use xlink:href="#instagram"></use>
                     </svg>
                 </a>
                 </li> 
                 <li class="ms-3">
-                    <a class="text-body-secondary" href="#" aria-label="Facebook">
+                    <a class="text-body-secondary" href="#!" aria-label="Facebook">
                         <svg class="bi" width="24" height="24">
                             <use xlink:href="#facebook"></use>
                         </svg>
@@ -100,8 +100,8 @@
             </ul> 
         </div>
         <!--copyright, para la entrega, descripción de la pagina-->
-        <p class="text-md-center text-body-secondary u-texto-justificado">Tienda enfocada en la venta de memes, siendo un meme en sí misma, generando un memeception. También forja como sátira de los NFT. Utiliza como moneda de cambio los <span class="fst-italic">"Brain coins"</span>, equivalente a espacio de almacenamiento cerebral del usuario.</p> 
-    </div> 
+        <p class="text-md-center small text-body-secondary u-texto-justificado mt-2">Tienda enfocada en la venta de memes, siendo un meme en sí misma, generando un memeception. También forja como sátira de los NFT. Utiliza como moneda de cambio los <span class="fst-italic">"Brain coins"</span>, equivalente a espacio de almacenamiento cerebral del usuario.</p> 
+    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
